@@ -149,7 +149,6 @@ public class MainActivity extends AppCompatActivity {
                 url = new URL(stringUrl);
             } catch (MalformedURLException exception) {
                 Log.e(LOG_TAG, "Error with creating URL", exception);
-                return null;
             }
             return url;
         }
